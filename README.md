@@ -1,5 +1,7 @@
 # MeuProjeto
-
+<img src="./img/Angular.jpg" Alt="Img">
+<img src="./img/Angular1.jpg" Alt="Img">
+<img src="./img/Angular2.jpg" Alt="Img">
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.1.
 
 ## Development server
