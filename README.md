@@ -1,9 +1,31 @@
-# MeuProjeto
+<p align="center">
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+</p>
+
+<p align="center">
+ <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=49AA26&labelColor=000000" alt="PRs welcome!" />
+
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
+</p>
+
+
+# 💻 Projeto:
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.1.
 
 <img src="./img/Angular.jpg" Alt="Img">
 <img src="./img/Angular1.jpg" Alt="Img">
 <img src="./img/Angular2.jpg" Alt="Img">
+
+## 🚀 Tecnologias:
+
+Esse projeto foi desenvolvido usando as seguintes tecnologias:
+
+Back-end:
+
+- 
+
 
 ## Development server
 
