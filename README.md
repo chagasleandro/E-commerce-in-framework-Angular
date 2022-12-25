@@ -22,9 +22,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Esse projeto foi desenvolvido usando as seguintes tecnologias:
 
-Back-end:
-
-- 
+- HTML
+- CSS
+- JAVASCRIT
 
 
 ## Development server
