@@ -2,6 +2,7 @@
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
 </p>
 
 <p align="center">
@@ -31,7 +32,18 @@ Esse projeto foi desenvolvido usando as seguintes tecnologias:
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Getting started
+## :checkered_flag: Starting ##
+
+```bash
+# Clone this project
+$ git clone https://github.com/chagasleandro/E-commerce-in-framework-Angular.git
+# Access
+$ cd E-commerce-in-framework-Angular
+# Install dependencies
+$ yarn or npm 
+# Run the project
+$ yarn start or npm start 
+# The server will initialize in the <http://localhost:4200>
 Install JSON Server
 
 npm install -g json-server
@@ -44,8 +56,6 @@ Create a produtos.json file with some data
         
         { "id": 2, "nome": "Teclado microsoft", "Valor": 30.00, "promocao": false, "valorPromo": 0, "imagem": "teclado.jpg" }
     ]}
-
-Start JSON Server
 
 json-server --watch db.json
 
