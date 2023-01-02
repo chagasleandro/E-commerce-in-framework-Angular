@@ -49,7 +49,7 @@ $ yarn start or npm start
 
 # Access
 $ cd backend
-# Run the json-server
+# Install json-server
 $ npm install -g json-server
 
 Create a produtos.json file with some data
