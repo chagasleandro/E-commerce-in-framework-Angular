@@ -48,8 +48,10 @@ $ yarn start or npm start
 ## Install JSON Server
 
 npm install -g json-server
-# Acess
+
+# Access
 $ cd backend 
+
 Create a produtos.json file with some data
 
 {
