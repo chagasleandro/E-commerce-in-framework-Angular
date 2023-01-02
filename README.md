@@ -41,6 +41,12 @@ $ yarn or npm
 $ yarn start or npm start 
 # The server will initialize in the <http://localhost:4200>
 
+## Development server ##
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. 
+The app will automatically reload if you change any of the source files.
+
+
 ## Install JSON Server
 
 # Access
@@ -58,14 +64,10 @@ Create a produtos.json file with some data
         { "id": 2, "nome": "Teclado microsoft", "Valor": 30.00, "promocao": false, "valorPromo": 0, "imagem": "teclado.jpg" }
     ]}
 
-# Run the json-server 
+Run the json-server 
 json-server --watch db.json
 
 
 
-## Development server ##
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. 
-The app will automatically reload if you change any of the source files.
 
 
