@@ -40,6 +40,7 @@ Create a produtos.json file with some data
 {
     "produtos": [
         { "id": 1, "nome": "mouse microsoft", "Valor": 15.89, "promocao": false, "valorPromo": 0, "imagem": "mouse.jpg" },
+        
         { "id": 2, "nome": "Teclado microsoft", "Valor": 30.00, "promocao": false, "valorPromo": 0, "imagem": "teclado.jpg" }
         ]
 }
