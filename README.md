@@ -22,35 +22,99 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 Esse projeto foi desenvolvido usando as seguintes tecnologias:
 
-Front-end:
 - HTML
 - CSS
 - JAVASCRIT
 - Angular
 
-Back-end:
-
-
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Getting started
+Install JSON Server
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+npm install -g json-server
+Create a produtos.json file with some data
 
-## Build
+{
+    "produtos": [
+        {
+        "id": 1,
+        "nome": "mouse microsoft",
+        "Valor": 15.89,
+        "promocao": false,
+        "valorPromo": 0,
+        "imagem": "mouse.jpg"
+        },
+        {
+        "id": 2,
+        "nome": "Teclado microsoft",
+        "Valor": 30.00,
+        "promocao": false,
+        "valorPromo": 0,
+        "imagem": "teclado.jpg"
+        },
+        {
+        "id": 3,
+        "nome": "Monitor Samsung",
+        "Valor": 250.00,
+        "promocao": false,
+        "valorPromo": 0,
+        "imagem": "monitor.jpg"
+        },
+        {
+        "id": 4,
+        "nome": "Laptop Samsung",
+        "Valor": 3000.00,
+        "promocao": true,
+        "valorPromo": 999.99,
+        "imagem": "laptop.jpg"
+        },
+        {
+        "id": 5,
+        "nome": "Headset microsoft",
+        "Valor": 178.50,
+        "promocao": false,
+        "valorPromo": 0,
+        "imagem": "headset.jpg"
+        },
+        {
+        "id": 6,
+        "nome": "Webcam Logitech",
+        "Valor": 90.00,
+        "promocao": true,
+        "valorPromo": 49.99,
+        "imagem": "webcam.jpg" 
+        },
+        {
+        "id": 7,
+        "nome": "Galaxy S10+",
+        "Valor": 3000.00,
+        "promocao": false,
+        "valorPromo": 0,
+        "imagem": "celular.jpg"
+        },
+        {
+        "id": 8,
+        "nome": "Mousepad Microsoft",
+        "Valor": 35.50,
+        "promocao": false,
+        "valorPromo": 0,
+        "imagem": "mousepad.jpg"
+        },
+        {
+        "id": 9,
+        "nome": "Go Pro 8",
+        "Valor": 300.00,
+        "promocao": false,
+        "valorPromo": 0,
+        "imagem": "gopro.jpg"
+        }  
+    ]
+}
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Start JSON Server
 
-## Running unit tests
+json-server --watch db.json
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
