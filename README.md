@@ -44,7 +44,8 @@ $ yarn or npm
 # Run the project
 $ yarn start or npm start 
 # The server will initialize in the <http://localhost:4200>
-Install JSON Server
+
+## Install JSON Server
 
 npm install -g json-server
 Create a produtos.json file with some data
