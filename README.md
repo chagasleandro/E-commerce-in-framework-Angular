@@ -62,5 +62,6 @@ Create a produtos.json file with some data
         { "id": 2, "nome": "Teclado microsoft", "Valor": 30.00, "promocao": false, "valorPromo": 0, "imagem": "teclado.jpg" }
     ]}
 
+# Run the json-server
 json-server --watch db.json
 
